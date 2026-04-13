@@ -5,8 +5,8 @@ set -e
 # We need to add preview extension for managed identity support
 # ------------------------------------------------------------
 
-az extension add --source aro-1.0.12-py2.py3-none-any.whl
-echo "✅ ARO preview extension installed, lets deploy your new ARO Cluster using managed identity."
+#az extension add --source aro-1.0.12-py2.py3-none-any.whl
+#echo "✅ ARO preview extension installed, lets deploy your new ARO Cluster using managed identity."
 # ------------------------------
 # Prompt user for input
 # ------------------------------
@@ -49,7 +49,7 @@ WORKER_SUBNET="worker-subnet"
 VNET_ADDRESS_PREFIX="10.0.0.0/22"
 MASTER_SUBNET_PREFIX="10.0.0.0/23"
 WORKER_SUBNET_PREFIX="10.0.2.0/23"
-ARO_VERSION="4.18.26"
+ARO_VERSION="4.20.15"
 
 STORAGE_ACCOUNT_NAME="aro$(openssl rand -hex 4)"
 CONTAINER_NAME="arocontainer"
