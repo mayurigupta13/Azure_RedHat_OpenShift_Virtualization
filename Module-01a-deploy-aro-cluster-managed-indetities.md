@@ -60,13 +60,13 @@ echo "📥 Downloading ARO deployment assets into ${DEST} ..."
 
 # Scripts (raw URLs)
 curl -fsSL -o build_aro_cluster_managedid_preview_ver_001.sh \
-  https://raw.githubusercontent.com/heisthesisko/Azure_RedHat_OpenShift_Virtulization/refs/heads/main/scripts/managedID-deploy/build_aro_cluster_managedid_preview_ver_001.sh
+  https://raw.githubusercontent.com/mayurigupta13/Azure_RedHat_OpenShift_Virtulization/refs/heads/main/scripts/managedID-deploy/build_aro_cluster_managedid_preview_ver_001.sh
 
 curl -fsSL -o deploy_and_monitor_aro_cluster_with_retry.sh \
-  https://raw.githubusercontent.com/heisthesisko/Azure_RedHat_OpenShift_Virtulization/refs/heads/main/scripts/managedID-deploy/deploy_and_monitor_aro_cluster_with_retry.sh
+  https://raw.githubusercontent.com/mayurigupta13/Azure_RedHat_OpenShift_Virtulization/refs/heads/main/scripts/managedID-deploy/deploy_and_monitor_aro_cluster_with_retry.sh
 
 curl -fsSL -o pull-secret.txt \
-  https://raw.githubusercontent.com/heisthesisko/Azure_RedHat_OpenShift_Virtulization/refs/heads/main/scripts/managedID-deploy/pull-secret.txt
+  https://raw.githubusercontent.com/mayurigupta13/Azure_RedHat_OpenShift_Virtulization/refs/heads/main/scripts/managedID-deploy/pull-secret.txt
 
 # ARO extension wheel (use RAW URL, not the HTML 'blob' page)
 curl -fsSL -o aro-1.0.12-py2.py3-none-any.whl \
